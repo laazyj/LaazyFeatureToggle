@@ -4,7 +4,7 @@ open System
 
 (* Properties *)
 let projectName = getBuildParamOrDefault "project" ""
-let versionNumber = if environVar "BUILD_SERVER" <> "true" then "0.0.0.0" else environVar "VERSION_NUMBER"
+let versionNumber = getBuildParamOrDefault "version" "1.0.0.0"
 
 (* Directories *)
 let buildDir = __SOURCE_DIRECTORY__

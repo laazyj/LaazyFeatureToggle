@@ -2,11 +2,13 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>LaazyFeatureToggle</id>
+    <title>LaazyFeatureToggle</title>
     <version>@build.number@</version>
     <authors>Jason Duffett</authors>
     <owners>Jason Duffett</owners>
     <summary>Quick and dirty C# Feature Toggle.</summary>
     <projectUrl>https://github.com/laazyj/LaazyFeatureToggle</projectUrl>
+    <licenseUrl>https://github.com/laazyj/LaazyFeatureToggle/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Simple static 'Feature' class that is used to wrap App.Config AppSettings to enable/disable sections of code at runtime.</description>
     <releaseNotes>See project website for release notes</releaseNotes>
