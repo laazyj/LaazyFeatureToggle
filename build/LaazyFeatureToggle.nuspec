@@ -16,6 +16,6 @@
     <tags>Feature Switch Toggle</tags>
   </metadata>
   <files>
-    <file src="tmp\*.*" exclude="**\*.pdb;**\*.Tests.*" target="lib" />
+    <file src="LaazyFeatureToggle.dll" target="lib" />
   </files>
 </package>
